@@ -13,12 +13,12 @@ To help the AsciiArtify startup team prepare a comparative analysis of three too
 **Main characteristics of each tool**
 
 * **minikube:**
-    * Supported OSes: Windows, macOS, Linux
+    * Supported OS: Windows, macOS, Linux
     * Architectures: x86-64, ARM
     * Automation: Possible via scripts and CI/CD
     * Additional features: Monitoring, integration with various hypervisors
 * **kind:**
-    * Supported OSes: Windows, macOS, Linux
+    * Supported OS: Windows, macOS, Linux
     * Architectures: x86-64, ARM
     * Automation: Easy integration with CI/CD
     * Additional features: Easy and fast startup
