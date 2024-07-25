@@ -33,6 +33,9 @@ kubectl create deployment hello-world --image=k8s.gcr.io/echoserver:1.4
 kubectl expose deployment hello-world --type=LoadBalancer --port=8080
 kubectl get services
 ```
+## Demostration
+**A short demonstration of the recommended tool (k3d)**
+[![asciicast](https://asciinema.org/a/Fz3wzWDkzaSvE6mKduCUG8kc1.svg)](https://asciinema.org/a/Fz3wzWDkzaSvE6mKduCUG8kc1)
 
 ## Docker licensing risks 
 
