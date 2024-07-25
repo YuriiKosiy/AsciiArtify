@@ -35,7 +35,7 @@ kubectl get services
 ```
 ## Demostration
 **A short demonstration of the recommended tool (k3d)**
-[![asciicast](https://asciinema.org/a/Fz3wzWDkzaSvE6mKduCUG8kc1.svg)](https://asciinema.org/a/Fz3wzWDkzaSvE6mKduCUG8kc1)
+![Image](.data/demo.gif)
 
 ## Docker licensing risks 
 
