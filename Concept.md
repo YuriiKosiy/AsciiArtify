@@ -37,6 +37,9 @@ kubectl get services
 **A short demonstration of the recommended tool (k3d)**
 ![Image](.data/demo.gif)
 
+Link to Asciinema
+[![asciicast](https://asciinema.org/a/Fz3wzWDkzaSvE6mKduCUG8kc1.svg)](https://asciinema.org/a/Fz3wzWDkzaSvE6mKduCUG8kc1)
+
 ## Docker licensing risks 
 
 ### Using Podman as an alternative to Docker 
