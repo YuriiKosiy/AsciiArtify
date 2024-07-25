@@ -43,16 +43,16 @@ Docker has certain licensing restrictions, especially in enterprise environments
 **Installing Podman and configuring it for use with Kubernetes** 
 
 #### 1. Installing Podman
-    ```bash
+```bash
     sudo apt-get update
     sudo apt-get -y install podman
-    ```
+```
 #### 2. Setting up Podman as Kubernetes
-    ```bash
+```bash
     podman machine init
-    odman machine start
+    podman machine start
     podman kube play myapp.yaml
-    ```
+```
 
 ## Conclusion
 * **minikube:** Recommended for local development
