@@ -33,7 +33,29 @@ kubectl create deployment hello-world --image=k8s.gcr.io/echoserver:1.4
 kubectl expose deployment hello-world --type=LoadBalancer --port=8080
 kubectl get services
 ```
+
+## Docker licensing risks 
+
+### Using Podman as an alternative to Docker 
+
+Docker has certain licensing restrictions, especially in enterprise environments. To avoid these restrictions, you can use Podman, which is a free and open source alternative to Docker. 
+
+**Installing Podman and configuring it for use with Kubernetes** 
+
+#### 1. Installing Podman
+    ```bash
+    sudo apt-get update
+    sudo apt-get -y install podman
+    ```
+#### 2. Setting up Podman as Kubernetes
+    ```bash
+    podman machine init
+    odman machine start
+    podman kube play myapp.yaml
+    ```
+
 ## Conclusion
 * **minikube:** Recommended for local development
 * **kind:** Good choice for CI/CD
 * **k3d:** The best option for PoC (recommended).
+

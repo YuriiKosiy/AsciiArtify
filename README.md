@@ -39,3 +39,55 @@ To help the AsciiArtify startup team prepare a comparative analysis of three too
 * **k3d:**
     * **Advantages:** Speed of deployment, support for multi-cluster configurations, ease of use
     * **Disadvantages:** Requires Docker installation, possible scaling issues
+
+## Demonstration
+
+** A short demonstration of the recommended tool (k3d) **
+
+Installing k3d:
+```bash
+curl -s https://raw.githubusercontent.com/k3d-io/k3d/main/install.sh | bash
+```
+Creating a cluster
+``` bash
+k3d cluster create mycluster
+```
+Check the status of the cluster
+```bash
+kubectl get nodes
+```
+Deployment of the Hello World application
+```bash
+kubectl create deployment hello-world --image=k8s.gcr.io/echoserver:1.4
+kubectl expose deployment hello-world --type=NodePort --port=8080 --target-port=8080 --name=hello-world
+```
+Check the availability of the application
+```bash
+kubectl get services
+```
+
+
+## Docker licensing risks 
+
+### Using Podman as an alternative to Docker 
+
+Docker has certain licensing restrictions, especially in enterprise environments. To avoid these restrictions, you can use Podman, which is a free and open source alternative to Docker. 
+
+**Installing Podman and configuring it for use with Kubernetes** 
+
+#### 1. Installing Podman
+    ```bash
+    sudo apt-get update
+    sudo apt-get -y install podman
+    ```
+#### 2. Setting up Podman as Kubernetes
+    ```bash
+    podman machine init
+    odman machine start
+    podman kube play myapp.yaml
+    ```
+
+## Conclusion
+* **minikube:** Recommended for local development
+* **kind:** Good choice for CI/CD
+* **k3d:** The best option for PoC (recommended).
