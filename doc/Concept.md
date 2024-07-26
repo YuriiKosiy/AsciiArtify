@@ -69,8 +69,8 @@ Docker has certain licensing restrictions, especially in enterprise environments
 # AsciiArtify PoC
 
 PoC for deploying a GitOps system on Kubernetes using ArgoCD.
-For detailed instructions, see - [doc/POC.md](doc/POC.md)
+For detailed instructions, see - [POC.md](POC.md)
 
 # AsciiArtify MVP
 
-This is an MVP for deploying a GitOps system on Kubernetes using ArgoCD [doc/MVP.md](doc/MVP.md).
+This is an MVP for deploying a GitOps system on Kubernetes using ArgoCD [MVP.md](MVP.md).

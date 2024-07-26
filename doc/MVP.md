@@ -38,9 +38,9 @@ To do this, go to our newly created app and the SYNC button and then the Synchro
 
 # AsciiArtify Concept
 
-Characteristics of the each tool on the [doc/Concept.md](doc/Concept.md)
+Characteristics of the each tool on the [Concept.md](Concept.md)
 
 # AsciiArtify PoC
 
 PoC for deploying a GitOps system on Kubernetes using ArgoCD.
-For detailed instructions, see - [doc/POC.md](doc/POC.md)
+For detailed instructions, see - [POC.md](POC.md)

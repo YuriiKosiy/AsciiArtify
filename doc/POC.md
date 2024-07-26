@@ -84,9 +84,9 @@ ArgoCD is successfully installed and ready to use.
 
 # AsciiArtify Concept
 
-Characteristics of the each tool on the [doc/Concept.md](doc/Concept.md)
+Characteristics of the each tool on the [Concept.md](Concept.md)
 
 
 # AsciiArtify MVP
 
-This is an MVP for deploying a GitOps system on Kubernetes using ArgoCD [doc/MVP.md](doc/MVP.md).
+This is an MVP for deploying a GitOps system on Kubernetes using ArgoCD [MVP.md](MVP.md).
