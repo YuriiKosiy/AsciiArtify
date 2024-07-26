@@ -46,14 +46,15 @@ kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/st
 ```bash
 kubectl get pods -n argocd
 ```
-NAME                                               READY   STATUS    RESTARTS   AGE
-argocd-application-controller-0                    1/1     Running   0          126m
-argocd-applicationset-controller-65bb5ff89-b22k6   1/1     Running   0          126m
-argocd-dex-server-69b469f8fb-fff58                 1/1     Running   0          126m
-argocd-notifications-controller-64bc7c9f7-vwbx6    1/1     Running   0          126m
-argocd-redis-867d4785f-m4r5g                       1/1     Running   0          126m
-argocd-repo-server-5744559fff-qt7mp                1/1     Running   0          126m
-argocd-server-697df9f478-5vgwm                     1/1     Running   0          126m
+| NAME                                              | READY  | STATUS   | RESTARTS  | AGE  |
+|---------------------------------------------------|--------|----------|-----------|------|
+| argocd-application-controller-0                   | 1/1    | Running  | 0         | 126m |
+| argocd-applicationset-controller-65bb5ff89-b22k6  | 1/1    | Running  | 0         | 126m |
+| argocd-dex-server-69b469f8fb-fff58                | 1/1    | Running  | 0         | 126m |
+| argocd-notifications-controller-64bc7c9f7-vwbx6   | 1/1    | Running  | 0         | 126m |
+| argocd-redis-867d4785f-m4r5g                      | 1/1    | Running  | 0         | 126m |
+| argocd-repo-server-5744559fff-qt7mp               | 1/1    | Running  | 0         | 126m |
+| argocd-server-697df9f478-5vgwm                    | 1/1    | Running  | 0         | 126m |
 
 **STATUS** must be **Running**
 
@@ -64,7 +65,7 @@ kubectl port-forward svc/argocd-server -n argocd 8080:443
 6. Open in your browser link https://127.0.0.1:8080/ and skip certificate verification.
 You should see this page:
 
-![Image](.data/Argo-CD.png)
+![Image](.data/argo-cd.png)
 
 Username: admin
 Password: <next steps>
