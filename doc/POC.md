@@ -65,7 +65,7 @@ kubectl port-forward svc/argocd-server -n argocd 8080:443
 6. Open in your browser link https://127.0.0.1:8080/ and skip certificate verification.
 You should see this page:
 
-![Image](.data/argo-cd.png)
+![Image](/.data/argo-cd.png)
 
 Username: admin
 Password: <next steps>
