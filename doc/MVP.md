@@ -24,13 +24,13 @@ To do this, go to our newly created app and the SYNC button and then the Synchro
 
 ![Image](/.data/argo-cd.gif)
 
-[1 Demo Video YouTube](https://youtu.be/p13DM2t6wp4)
+<a href="https://youtu.be/p13DM2t6wp4" target="_blank">1. Demo Video YouTube</a>
 
 ### Make changes in the go-demo-app repository and commit them.
 
 ![Image](/.data/pp.gif)
 
-[2 Demo Video YouTube](https://youtu.be/LxJ66SzxAMc)
+<a href="https://youtu.be/LxJ66SzxAMc" target="_blank">2. Demo Video YouTube</a>
 
 ### A few minutes later, our ArgoCD sees the changes in the repository and synchronizes them. You can see it in the screenshot below.
 

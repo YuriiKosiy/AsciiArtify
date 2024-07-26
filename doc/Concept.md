@@ -35,7 +35,8 @@ kubectl get services
 ```
 ## Demostration
 **A short demonstration of the recommended tool (k3d)**
-![Image](.data/demo.gif)
+
+![Image](/.data/demo.gif)
 
 Link to Asciinema
 [![asciicast](https://asciinema.org/a/Fz3wzWDkzaSvE6mKduCUG8kc1.svg)](https://asciinema.org/a/Fz3wzWDkzaSvE6mKduCUG8kc1)
