@@ -68,9 +68,10 @@ You should see this page:
 ![Image](/.data/argo-cd.png)
 
 Username: admin
-Password: <next steps>
 
-7. Give me password:
+Password: **next step**
+
+7. Getting a password:
 ```bash
 kubectl get secret argocd-initial-admin-secret -n argocd -o jsonpath="{.data.password}" | base64 -d; echo
 ```
