@@ -35,3 +35,12 @@ To do this, go to our newly created app and the SYNC button and then the Synchro
 ### A few minutes later, our ArgoCD sees the changes in the repository and synchronizes them. You can see it in the screenshot below.
 
 ![Image](/.data/demo-Argo-CD.png)
+
+# AsciiArtify Concept
+
+Characteristics of the each tool on the [doc/Concept.md](doc/Concept.md)
+
+# AsciiArtify PoC
+
+PoC for deploying a GitOps system on Kubernetes using ArgoCD.
+For detailed instructions, see - [doc/POC.md](doc/POC.md)

@@ -66,3 +66,11 @@ Docker has certain licensing restrictions, especially in enterprise environments
 * **kind:** Good choice for CI/CD
 * **k3d:** The best option for PoC (recommended).
 
+# AsciiArtify PoC
+
+PoC for deploying a GitOps system on Kubernetes using ArgoCD.
+For detailed instructions, see - [doc/POC.md](doc/POC.md)
+
+# AsciiArtify MVP
+
+This is an MVP for deploying a GitOps system on Kubernetes using ArgoCD [doc/MVP.md](doc/MVP.md).

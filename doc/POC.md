@@ -82,3 +82,11 @@ Copy password to your browser on **password** field.
 ArgoCD is successfully installed and ready to use.
 
 
+# AsciiArtify Concept
+
+Characteristics of the each tool on the [doc/Concept.md](doc/Concept.md)
+
+
+# AsciiArtify MVP
+
+This is an MVP for deploying a GitOps system on Kubernetes using ArgoCD [doc/MVP.md](doc/MVP.md).
