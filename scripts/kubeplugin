@@ -1,0 +1,35 @@
+#!/bin/bash
+
+# Argument validation
+if [ "$#" -ne 2 ]; then
+  echo "Usage: $0 <namespace> <resource_type>"
+  exit 1
+fi
+
+NAMESPACE=$1
+RESOURCE_TYPE=$2
+
+# Getting a list of names in the namespace
+PODS=$(kubectl get $RESOURCE_TYPE -n $NAMESPACE -o jsonpath='{.items[*].metadata.name}')
+
+# Check if there are subnames in the namespace
+if [ -z "$PODS" ]; then
+  echo "No $RESOURCE_TYPE found in namespace $NAMESPACE."
+  exit 0
+fi
+
+# Header output
+printf "%-15s %-50s %-10s %-10s\n" "Resource" "Name" "CPU" "Memory"
+
+# Header output
+for POD in $PODS; do
+  CPU=$(kubectl top pod $POD -n $NAMESPACE --no-headers 2>/dev/null | awk '{print $2}')
+  MEMORY=$(kubectl top pod $POD -n $NAMESPACE --no-headers 2>/dev/null | awk '{print $3}')
+  if [ -z "$CPU" ]; then
+    CPU="-"
+  fi
+  if [ -z "$MEMORY" ]; then
+    MEMORY="-"
+  fi
+  printf "%-15s %-50s %-10s %-10s\n" "$RESOURCE_TYPE" "$POD" "$CPU" "$MEMORY"
+done

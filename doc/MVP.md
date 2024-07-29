@@ -2,7 +2,7 @@
 
 ## Previous steps in deploying ArgoCD.
 
-For detailed instructions, see. [doc/POC.md](doc/POC.md).
+For detailed instructions, see. [/doc/POC.md](/doc/POC.md).
 
 ## Demonstration
 
