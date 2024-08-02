@@ -36,6 +36,12 @@ To do this, go to our newly created app and the SYNC button and then the Synchro
 
 ![Image](/.data/demo-Argo-CD.png)
 
+### Test APP for Image
+
+![Image](/.data/pp_12.gif)
+
+<a href="https://youtu.be/7w_6CDZYTiM" target="_blank">3. Demo Video YouTube</a>
+
 # AsciiArtify Concept
 
 Characteristics of the each tool on the [Concept.md](Concept.md)
@@ -44,3 +50,5 @@ Characteristics of the each tool on the [Concept.md](Concept.md)
 
 PoC for deploying a GitOps system on Kubernetes using ArgoCD.
 For detailed instructions, see - [POC.md](POC.md)
+
+https://youtu.be/7w_6CDZYTiM
